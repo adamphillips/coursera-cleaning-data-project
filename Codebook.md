@@ -3,7 +3,7 @@ Codebook
 
 This describes the steps taken in order to process the data.
 
-There are more specific details about the implementation available in [the readme](Readme.md).
+There are more specific details about the implementation available in [the readme](README.md).
 
 For more information see the [original download](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 and the [related website](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
