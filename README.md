@@ -44,7 +44,7 @@ The the two 2 groups are joined together. The data for the 'test' group is first
 
 ### Selecting the interesting subset of the data
 
-The brief states that we are only interested in the measurements on the mean and standard deviation. This has been interpreted as being only the mean and standard deviations of the feature vectors listed in the file `features_info.txt` which is included in the original download. The interesting columns are selecting by performing a regular expression match against the column names. This regular expression is stored in the variable `interestingColumnRegex` which is defined as part of the `interestingFeatureColumnIndexes` function therefore is straightforward to change if the definition of the data we are interested in changes.
+The brief states that we are only interested in the measurements on the mean and standard deviation. This has been interpreted as being only the mean and standard deviations of the feature vectors listed in the file `features_info.txt` which is included in the original download. In particularly, mean frequency and angle measurements were not included as these are not considered to be measurements on the mean or standard deviation. The interesting columns are selecting by performing a regular expression match against the column names. This regular expression is stored in the variable `interestingColumnRegex` which is defined as part of the `interestingFeatureColumnIndexes` function therefore is straightforward to change if the definition of the data we are interested in changes.
 
 ### Replacing the activity ids with meaningful labels
 
