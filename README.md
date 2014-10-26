@@ -48,7 +48,7 @@ There are descriptions of the 6 different activities in the `activity_labels.txt
 
 ### Apply meaningful column names to the data
 
-This uses our knowledge of how the data was combined along with the information in the 'features.txt' file to add descriptive labels to each of the columns.
+This uses our knowledge of how the data was combined along with the information in the 'features.txt' file to add descriptive labels to each of the columns. These names were not compliant with the normal R $ syntax therefore parentheses were stripped and hypens replaced with underscores.
 
 ### Calculate averages
 
