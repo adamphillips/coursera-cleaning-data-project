@@ -5,7 +5,11 @@ This is the course project for the [Coursera "Getting and Cleaning Data" course]
 
 The purpose of the project is to create an R script that combines the given sets of accelerometer data, selects a subset of the overall data and presents it in a more usable format.
 
-The script is called run_analysis.R
+The script is called [run_analysis.R](run_analysis.R). In order to produce the processed data set, first import the script. Then run the function `runAnalysis()` which will return the processed data.
+
+```
+processedData <- runAnalysis()
+```
 
 The data was provided [as a zip file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and more information about how it was collected is available on the [associated website](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) and in the file `readme.txt` which is included in the downloadable zip file.
 
