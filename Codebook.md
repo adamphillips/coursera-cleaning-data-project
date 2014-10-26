@@ -10,12 +10,12 @@ and the [related website](http://archive.ics.uci.edu/ml/datasets/Human+Activity+
 
 ## Resulting data format
 
-The resulting data consists of 68 columns and 180 rows. The columns are as follows:
+The resulting data consists of 68 columns and 180 rows. Each row represents the average accelerometer readings for a particular combination of subject and activity. The columns are as follows:
 
 - ActivityDescription : The activity associated with the measurement. This is one of LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
 - Subject : The ID of the subject. This is a number between 1 and 30 inclusive.
 
-The remaining 66 columns are average values for each piece of accelarometer data.
+The remaining 66 columns are the average values for each piece of accelarometer data.
 
 - tBodyAcc_mean_X
 - tBodyAcc_mean_Y
@@ -84,7 +84,7 @@ The remaining 66 columns are average values for each piece of accelarometer data
 - fBodyBodyGyroJerkMag_mean
 - fBodyBodyGyroJerkMag_std
 
-The section below is taken from the file `features_info.txt` and describes the process used to collect the original data
+The section below is taken from the file `features_info.txt` and describes the process used to collect the original data and what these variables mean.
 
 ```
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
